@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    margin-right: 2px;
+    font-family: Arial;
+    font-size: 14px;
+    border-right: 1px solid #dadce0;
+    display: flex;
+    flex-direction: column;
+
+
+}
+/*INÍCIO ÁREA DO HEADER*/
+.container-cabecalho {
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.container-cabecalho a{
+    text-decoration:none;
+    color: #000;
+    text-shadow: 2px 2px 2px 2px #000;
+
+}
+
+#gmail {
+    margin-right: 20px;
+    height: 31px;
+    width: 31px;
+    margin-top: 4px;
+
+   
+}
+
+#imagens {
+    margin-right: 29px;
+    margin-top: 4px;
+}
+#menu {
+    margin-top: 3px;
+    margin-right: 24px;
+}
+
+#menu div{
+    display: flex;
+    
+}
+
+.fileira div{
+    margin-top: 2px;
+    margin-right: 2px;
+    border: 2.5px solid #666666;
+    border-radius: 50px;
+    background-color: #666666;
+}
+
+#usuario img {
+    width: 30px;
+    background-color: #666666;
+    margin-right: 18px;
+    border-radius: 50px;
+    padding: 7px;
+
+ }
+ /*FIM ÁREA DO HEADER*/
+
+
+ 
+ /*IÍCIO ÁREA DA PESQUISA*/
+ .container-principal {
+    margin-top: 50px;
+ }
+ .container-principal div{
+    display: flex;
+    justify-content: center;
+ }
+
+ .container-principal .logo{
+    margin-bottom: 30px;
+ }
+.input {
+    position: relative;
+
+}
+
+.input input {
+    width: 583px;
+    border: 1px solid #e2e4e9;
+    border-radius: 50px;
+    border-color: #e2e4e9;
+    height: 44px;
+    width: 583px;
+    padding-top: 9px;
+    padding-left: 50px;
+    padding-right: 115px;
+    padding-bottom: 5px;
+}
+.input input:hover {
+    box-shadow: 0px 1px 3px 1px #edf0f5;
+}
+
+.input input:focus{
+    outline-color: #e2e4e9;
+}
+
+
+ .input #lupa {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -530px;
+    width: 20px;
+    
+ }
+
+ .ladopesq1 {
+    position: absolute;
+    width: 20px;
+    margin-top: 11px;
+    margin-right: 24px;
+    margin-left: 400px;
+ }
+
+ .input .ladopesq1{
+    width: 25px;
+    height: 25px;
+ }
+
+ .ladopesq2 {
+    position: absolute;
+    margin-top: 15px;
+    width: 15px;
+    height: 19px;
+    margin-left: 500px;
+    margin-right: 60px;
+ }
+
+ .input .ladopesq2 {
+    width: 13px;
+    height: 18px;
+
+ }
+
+ .ladopesq3 {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 510px;
+    width: 20px;
+ 
+ }
+
+ .input .ladopesq3 {
+    width: 25px;
+    height: 25px;
+ }  
+
+ .botoes {
+    margin-top: 30px;
+ }
+
+ .botoes div{
+    margin-right: 14px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    font-family: Arial;
+    padding: 10px;
+ }
+
+ .botoes a {
+    color: #3c4043;
+    text-decoration: none;
+ }
+
+ /*FIM ÁREA PESQUISA*/
+
+
+ /*INÍCIO AREA FOOTER*/
+
+footer {
+    color: #686363;
+    background-color: #f2f2f2;
+    padding-bottom: 10px;
+
+}
+
+ .pais {
+    
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #dadce0;
+    margin-bottom: 19px;
+    padding-left: 19px;
+ }
+
+ .container-pezinho {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .pezinho4p {
+    display: flex;
+ }
+
+ .pezinho4p div{
+    margin-right: 30px;
+    margin-left: 19px;
+ }
+.tudo-rodape div{
+    flex-wrap: wrap;
+}
+
+footer {
+    margin-top: 200px;
+}
+ /*FIM AREA FOOTER*/
+
+  /*INÍCIO @MEDIA*/
+
+  @media (max-width:560px){
+    .input input {
+        width: 303px;
+
+    }
+  }
+  @media (max-width:560px){
+    .input #lupa {
+        position: absolute;
+        margin-top: 12px;
+        margin-left: -250px;
+        width: 20px;
+        
+     }
+  }
+
+@media (max-width:560px){
+    .ladopesq1 {
+        margin-top: 11px;
+        margin-right: 20px;
+        margin-left: 150px;
+     }
+}
+
+@media (max-width:560px) {
+    .ladopesq2 {
+        margin-left: 250px;
+        margin-right: 60px;
+     }
+}
+
+@media (max-width:560px) {
+    .ladopesq3 {
+        margin-top: 11px;
+        margin-left: 250px;
+     
+     }
+    
+}
+
+@media (max-width:560px){
+    footer {
+        margin-top:470px;
+
+    }
+  }
+
+  @media (max-width:560px){
+    .container-pezinho div{
+       margin: 10px;
+       display: flex;
+       flex-direction: column;
+     }
+    
+}
